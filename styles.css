@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+.cover-image {
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover; 
+    object-position: center; 
+}
+.lead{
+    font-size: 25px;
+    font-weight:bold;
+}
+.Carouselimg{
+    border-radius: 50%;
+}
+
+.carouseltxt{
+    font-size: 20px;
+    font-weight: normal;
+}
