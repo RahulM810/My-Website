@@ -4,11 +4,10 @@ body {
     overflow-x: hidden; 
 }
 .cover-image {
+    flex: 1; /* Take remaining space */
     width: 100%;
-    height: 100vh; 
-    object-fit: cover; 
-    object-position: center; 
-    
+    object-fit: cover; /* Ensures image covers the container */
+    object-position: center; /* Center the image */
 }
 .lead{
     font-size: 25px;
@@ -21,9 +20,4 @@ body {
 .carouseltxt{
     font-size: 20px;
     font-weight: normal;
-}
-@media (max-width: 768px) {
-    .cover-image {
-        height: 50vh; /* Adjust the height for mobile devices */
-    }
 }
